@@ -7,7 +7,7 @@
 <style>
 @media (min-width: 1024px) {
   .about {
-    min-height: 99vh;
+    min-height: 98vh;
     display: flex;
     align-items: center;
   }

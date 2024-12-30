@@ -9,12 +9,10 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1 class="text-[#001939] font-bold">{{ msg }}</h1>
+    <h1 class="text-metalfix-blue font-intro-rust">{{ msg }}</h1>
     <h3>
       Usinagem de Precisão e Manutenção Industrial.
-      Qualidade, Precisão e Agilidade para o seu Projeto
-      <a href="https://vite.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      Qualidade, Precisão e Agilidade para o seu Projeto.
     </h3>
   </div>
 </template>

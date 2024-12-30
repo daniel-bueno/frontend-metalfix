@@ -9,10 +9,14 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="wrapper">
       <HelloWorld msg="METALFIX" />
-
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <div class="pipe"></div>
+        <RouterLink to="/about">Produtos</RouterLink>
+        <div class="pipe"></div>
+        <RouterLink to="/about">Serviços</RouterLink>
+        <div class="pipe"></div>
+        <RouterLink to="/about">Materias</RouterLink>
       </nav>
     </div>
   </header>
@@ -28,7 +32,7 @@ header {
 
 .logo {
   display: block;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1rem;
 }
 
 nav {
@@ -36,6 +40,9 @@ nav {
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
 nav a.router-link-exact-active {
@@ -46,14 +53,15 @@ nav a.router-link-exact-active:hover {
   background-color: transparent;
 }
 
-nav a {
+.pipe {
   display: inline-block;
-  padding: 0 1rem;
+  margin: 0 0.5rem;
   border-left: 1px solid var(--color-border);
 }
 
 nav a:first-of-type {
   border: 0;
+  margin-left: 0 !important;
 }
 
 @media (min-width: 1024px) {
@@ -75,9 +83,10 @@ nav a:first-of-type {
 
   nav {
     text-align: left;
-    margin-left: -1rem;
     font-size: 1rem;
-
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
     padding: 1rem 0;
     margin-top: 1rem;
   }
