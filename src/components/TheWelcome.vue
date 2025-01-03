@@ -1,90 +1,57 @@
 <script setup>
 import WelcomeItem from './WelcomeItem.vue'
-import DocumentationIcon from './icons/IconDocumentation.vue'
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
+import CogIcon from './icons/IconCog.vue'
+import WrenchIcon from './icons/IconWrench.vue'
+import WrenchScrewdIcon from './icons/IconWrenchScrewd.vue'
+import IconPhoneIcon from './icons/IconPhone.vue'
+import Cog6Icon from './icons/IconCog6.vue'
 </script>
 
 <template>
   <WelcomeItem>
     <template #icon>
-      <DocumentationIcon />
+      <CogIcon />
     </template>
-    <template #heading>Documentation</template>
-
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
+    <template #heading><span class="text-metalfix-blue font-bold">Usinagem de Precisão e Peças Sob Medida</span></template>
+    Fabricação de componentes mecânicos com alta precisão e qualidade. Nossa estrutura completa permite
+    a produção de peças customizadas para projetos industriais, garantindo acabamento superior e entregas ágeis.
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <ToolingIcon />
+      <WrenchIcon />
     </template>
-    <template #heading>Tooling</template>
-
-    This project is served and bundled with
-    <a href="https://vite.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a>
-    +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank" rel="noopener">Volar</a>. If
-    you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a>
-    and
-    <a href="https://on.cypress.io/component" target="_blank" rel="noopener"
-      >Cypress Component Testing</a
-    >.
-
-    <br />
-
-    More instructions are available in <code>README.md</code>.
+    <template #heading><span class="text-metalfix-blue font-bold">Manutenção Industrial Especializada</span></template>
+    Serviços de manutenção para máquinas industriais, extrusoras, agrícolas e perfuratrizes.
+    Atendimento técnico 24h para emergências, com foco em minimizar paradas e maximizar a
+    eficiência dos equipamentos.
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <EcosystemIcon />
+      <WrenchScrewdIcon />
     </template>
-    <template #heading>Ecosystem</template>
-
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
+    <template #heading><span class="text-metalfix-blue font-bold">Reparo e Recuperação de Peças</span></template>
+    Recuperação e reparo de componentes metálicos com soluções rápidas e econômicas.
+    Utilizamos técnicas avançadas para restaurar peças desgastadas, mantendo as
+    especificações originais do fabricante.
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <CommunityIcon />
+      <IconPhoneIcon />
     </template>
-    <template #heading>Community</template>
-
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
-    Discord server, or
-    <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a>
-    and follow the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
+    <template #heading><span class="text-metalfix-blue font-bold">Atendimento Rápido e Eficiente</span></template>
+    Atendimento ágil via WhatsApp para orçamentos e consultas. Localização estratégica
+    para pronto atendimento, oferecendo soluções rápidas e confiáveis para sua empresa.
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <SupportIcon />
+      <Cog6Icon />
     </template>
-    <template #heading>Support Vue</template>
-
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
+    <template #heading><span class="text-metalfix-blue font-bold">Máquinas Pesadas e Equipamentos</span></template>
+    Manutenção especializada em máquinas pesadas e equipamentos industriais de grande porte.
+    Equipe qualificada e ferramental adequado para serviços complexos com máxima segurança.
   </WelcomeItem>
 </template>
